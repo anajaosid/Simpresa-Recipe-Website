@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SWEET FILIPINO FOODS</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, sans-serif;
+    }
+
+    body {
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background-color: rgb(50, 151, 205);
+      color: whitesmoke;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: rgb(111, 197, 214);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #333;
+      margin: 0 100px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+   .main {
+     padding: 30px;
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    .dish {
+     display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      
+    }
+
+    .appetizer{
+      padding: 30px;
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    .appe {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .drinks {
+      padding: 30px;
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    .soft {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .dessert {
+      padding: 30px;
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    .desserts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #ffffffe9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+      overflow: hidden;
+      height: 350px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .card-content a {
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .card-content a:hover {
+      background-color: rgb(50, 148, 205);
+    }
+
+    footer {
+      background-color: #64d8e0;
+      color: wheat;
+      text-align: center;
+      padding: 30px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jai's recipes</h1>
+    <p>Welcome to Jai's  food recipes, here are the best filipino food you can make at home</p>
+  </header>
+
+  <nav>
+    <a href="lutong resto.html">Home</a>
+    <a href="luto.html">About us</a>
+    <a href="drinks.html">Contact</a>
+    
+  </nav>
+
+  <div class="main">
+    <h2>Main dish</h2>
+    <br>
+
+    <div class="card">
+        <img src="filipino-chicken-adobo-a_aam_filipino_chicken_adobo_feature_9-1366x2048.jpeg" alt="chickenadobo">
+
+        <div class="card-content">
+          <h3>Chicken adobo</h3>
+          <details>
+            <summary>View</summary>
+            <div id="chickenadobo" class="recipe">
+              <p><strong>Ingredients</strong></p>
+              <ul>
+	         <li>chicken drumsticks</li>
+                  <li>5 cloves of garlic, minced</li>
+                  <li>1 pc onion, minced</li>
+                  <li>1 tsp whole black peppercorns, slightly crushed</li>
+                  <li>2 tps vinegar<li>
+                  <li>1/4 cup soy sauce</li>
+                  <li>1 cup water</li>
+                  <li>2pcs bay leaves</li>
+                  <li>1 pc Knorr chicken cubes</li>
+                  <li>1 cup kale or spinach</li>
+                  <li>1 tbs brown sugar</li>
+              </ul>
+
+              <br>
+
+              <p><strong>Procedure</strong></p>
+	      
+	       <ol>
+                <li>Heat the oil in pan and sauté garlic and onions. Then add chicken to the pan and sear on all sides, until you have a little browning in the chicken skin.</li>
+                <li>Pour in vinegar, soy sauce and water. Add bay leaves, pepper and Knorr chicken cubes. Bring to a boil over high heat then reduce heat to simmer, but don't cover the pan. Continue simmer for 10 mins.</li>
+                <li>Remove chicken pieces from sauce and fry in another pan until nicely browned.</li>
+                <li>Put back fried chicken pieces into sauce. Add sugar and let simmer again for 10 mins or  until sauce has thickened. Serve warm.</li>
+               </ol>
+	           </ul>
+
+
+
+
+           </details>
+           </div>
+          </div>
+      </div>
+ </div>
+              
+
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="chickencurry.jpg.jpg" alt="chickencurry">
+
+        <div class="card-content">
+          <h3>Chicken Curry</h3>
+          <details>
+            <summary>View</summary>
+            <div id="chickencurry" class="recipe">
+              <p><strong>Ingredients</strong></p>
+              <ul>
+                <li>1 whole chicken, chopped</li>
+                <li>1 tbs vegetable oil</li>
+                <li>chicken stock</li>
+                <li>1 whole garlic & onion, minced</li>
+                <li>vegetables; chopped carrots, red & green bell peppers, and baking potato</li>
+                <li>coconut milk</li>
+                <li>fish sauce</li>
+                <li>seasonings; curry powder, paprika, salt, and pepper</li>
+              </ul>
+
+              <br>
+
+              <p><strong>Procedure</strong></p>
+
+              <p><stong>Procedure</stong></p>
+              <ol>at oil in a pot. Pan fry the chicekn pieces fro 1 1/2 to 2 minutes per side. Remove the chicken from cooking pot. Set aside.</li>
+                <li>Combine Knorr Ginataang Gulay recipe Mix with 2 cups water. Stir until well blended. Set aside.</li>
+                <li>Heat remaining oil on the pot. Saute onion and garlic. Add the celery. Continue to cook until onion and celery softens.</li>
+                <il>Pour the gata mixture into the pot. Let boil.</li>
+                <il>Add curry powder. Stir until the powder totally dilutes in coconut milk.</li>
+                <li>Put the pan-fried chicken into the pan. Cover and cook in medium heat for 30 to 35 minutes or until tender.</li>
+                <li>Add red bell pepper, long green pepper, and potato. Cover the pot and cook for 5 to 8 minutes.</li>
+                <li>Add fish sauce and ground black pepper. Stir.</li>
+                <li>Transfer to a serving plate. Serve. Share and enjoy!</li>
+            </ol>
+              </ul>
+
+            
+
+            </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+   <div class="appetizer">
+    <h2>Appetizers</h2>
+    <br>
+
+    <div class="appe">
+      <div class="card">
+        <img src="lumpiangshanghai.jpg.jpg" alt="lumpiangshanghai">
+        <div class="card-content">
+          <h3>Lumpiang Shanghai</h3>
+             <details>
+              <summary>View</summary>
+              <p><strong>Ingredients</strong></p>
+
+              <div id="lumpiangshanghai" class="recipe">
+                <ul>
+                  <li>50pcs of lumpia wrappers</li>
+                  <li>cooking oil (any kind of oil like canola oil)</li>
+                  <li>2 whole eggs</li>
+                  <li>3 pounds of ground pork</li>
+                  <li>1 can (8oz) water chestnuts, minced</li>
+                  <li>1/2 large onion, minced</li>
+                  <li>2 whole carrots, minced</li>
+                  <li>salt & pepper</li>
+                </ul>
+                <br>
+                
+                <p><strong>Procedure</strong></p>
+
+                <ol>
+                  <li>Combine all filling ingredients in a bowl. Mix well.
+1 1/2 lbs ground pork, 2 pieces onion, 2 pieces carrots, 1 1/2 teaspoons garlic powder, 1/2 teaspoon ground black pepper, 1/2 cup parsley, 1 1/2 teaspoons salt, 1 tablespoon sesame oil, 2 eggs</li>
+                  <li>Scoop around 1 to 1 1/2 tablespoons of filling and place over a piece of lumpia wrapper. Spread the filling and then fold both sides of the wrapper. Fold the bottom. Brush beaten egg mixture on the top end of the wrapper. Roll-up until completely wrapped. Perform the same step until all mixture are consumed.</li>
+                  <li>Heat oil in a cooking pot. Deep fry lumpia in medium heat until it floats.</li>
+                  <li>Remove from the pot. Let excess oil drip. Serve. Share and enjoy</li>
+                </ol>
+
+
+
+              </div>
+             </details>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="porksiomai.jpg" alt="porksiomai">
+        <div class="card-content">
+          <h3>PORK SIOMAI</h3>
+          <details>
+            <summary>View</summary>
+            <p><strong>Ingredients</strong></p>
+            
+            <div id="porksiomai" class="recipe">
+              <ul>
+                <li>500 grams of ground pork</li>
+                <li>1 tablespoon of salt</li>
+                <li>1 tablespoon ground black pepper</li>
+                <li>1 tablespoon garlic powder (or fresh garlic chopped finely)</li>
+                <li>1 tablespoon onion powder (or fresh onion chopped finely)</li>
+                <li>3 tablespoon parsley (chopped finely)</li>
+                <li>2 tablespoon sesame oil</li>
+                <li>1 egg (beaten)</li>
+                <li>siomai wrappers (fro wrapping)</li>
+              </ul>
+              <br>
+
+              <p><strong>Procedure</strong></p>
+
+              <ol>
+                <li>Combine ground pork and minced shrimp in a bowl. Gradually mix together.</li>
+                <li>Add jicama, carrot, onion, scallion, egg, ground black pepper, and sesame oil. Continue to mix until all the ingredients are well blended.</li>
+                <li>Add Knorr SavorRich Pork Liquid Seasoning. Mix well.</li>
+                <li>Scoop 1 1/2 tablespoons of the pork mixture and wrap in wonton wrapper (see video below for guidance). Perform this step until the mixture is fully consumed.</li>
+                <li>Arrange in a steamer and then steam for 15 to 20 minutes.</li>
+                <li>Transfer to a serving plate. Serve with toyo and calamansi dipping sauce and some chili garlic paste.</li>
+              </ol>
+            </div>
+          </details>
+          
+        </div>
+      </div>
+</div>
+
+ <div class="drinks">
+    <h2>DRINKS</h2>
+    <br>
+
+    <div class="soft">
+      <div class="card">
+        <img src="bukolychee.webp" alt="bukolychee">
+        <div class="card-content">
+          <h3>BUKOLYCHEE</h3>
+          <details>
+            <summary>View</summary>
+            <p><strong>Ingredients</strong></p>
+
+            <div id="bukolychee" class="recipe">
+            <ul>
+              <li>2 cups young coconut meat (buko), shredded</li>
+              <li>4 cups coconut juice</li>
+              <li>1 can (20 ounce) lychee in syrup, drained</li>
+              <li>2/3 sugar</li>
+            </ul>
+            <br>
+
+            <p><strong>Procedure</strong></p>
+            <ol>
+              <li>In a large pitcher, young coconut, coconut juice, lychee (including syrup), and sugar. Stir well until sugar is dissolved.</li>
+              <li>Chill in the refrigerator until ready to serve.</li>
+              <li>Serve in tall glasses over ice.</li>
+            </ol>
+          </details>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="sago-at-gulaman.jpg" alt="sago-at-gulaman">
+        <div class="card-content">
+          <h3>SAGO'T GULAMAN</h3>
+          <details>
+            <summary>View</summary>
+            <p><strong>Ingredients</strong></p>
+
+            <div id="sago-at-gulaman" class="recipe">
+              <ul>
+                <li>cooked sago, gulaman (cut into small cubes)</li>
+                <li>arnibal syrup</li>
+                <li>4 cups cold water</li>
+                <li>1 tps banana essence or vanilla extract</li>
+                <li>crushed ice</li>
+              </ul><br>
+              <p><strong>Procedure</strong></p>
+              <ol>
+                <li>In a pot over medium heat, bring enough water to cover sago pearls to a boil. Add sago pearls, stir gently and cook for about 10 minutes or until translucent. Remove from heat, rinse well and drain.</li>
+                <li>In the pot, add boiled sago and enough cold water to cover. Cook over medium heat, stirring occasionally, and bring to a gentle boil. When water has boiled for about 5 minutes, remove from heat, rinse well and drain. </li>
+                <li>In the pot, add enough cold water to cover sago and again, bring to a gentle boil for about 5 minutes. Remove from heat, rinse well and drain. Repeat the process until sago pearls are tender but chewy and translucent with no white in the center. Rinse well and allow to cool. </li>
+              </ol>
+          </details>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="dessert">
+    <h2>DESSERTS</h2>
+    <br>
+
+    <div class="desserts">
+      <div class="card">
+        <img src="biko.jpg.jpg" alt="biko">
+        <div class="card-content">
+          <h3>BIKO</h3>
+          <details>
+            <summary>View</summary>
+            <p><strong>Ingredients</strong></p>
+            <ul>
+              <li>2 cups glutinous rice aka sticky rice or malagkit</li>
+              <li>1 1/2 cups water</li>
+              <li>2 cups brown sugar</li>
+              <li>4 cups coconut milk</li>
+              <li>1/2 tsp salt</li>
+            </ul>
+
+            <br>
+
+            <p><strong>Procedure</strong></p>
+            <ol>
+              <li>Combine the sticky rice and water in a rice cooker and cook until the rice is ready (we intentionally combined lesser amount of water than the usual so that the rice will not be fully cooked)</li>
+              <li>While the rice is cooking, combine the coconut milk with brown sugar and salt in a separate pot and cook in low heat until the texture becomes thick. Stir constantly.</li>
+              <li>Once the rice is cooked and the coconut milk-sugar mixture is thick enough, add the cooked rice in the coconut milk and sugar mixture then mix well. Continue cooking until all the liquid evaporates (but do not overcook).</li>
+              <li>Scoop the cooked biko and place it in a serving plate then flatten the surface.</li>
+              <li>Share and Enjoy!</li>
+            </ol>
+          </details>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="pistacio.jpg" alt="pistacio">
+        <div class="card-content">
+          <h3>Pistachio</h3>
+          <p>For the sponge cake</p>
+          <details>
+            <summary>View</summary>
+            <p><strong>Ingredients</strong></p>
+            <ul>
+              <li>1/2 cup (90grams) unsalted shelled roasted pistachios</li>
+              <li>1 1/2 (180g) all purpose flour</li>
+              <li>1 1/2 teaspoon baking powder</li>
+              <li>1 1/2 teaspoon kosher salt</li>
+              <li>1 teaspoon cardamom</li>
+              <li>1/2 (120ml) cup whole milk, at room temperature</li>
+              <li>1 1/4 cup sugar (250g), devided</li>
+              <li>6 large eggs, seperated, at room temperature</li>
+              <li>1/2 teaspoon almond extract</li>
+              <li>1/2 teaspoon vanilla extract</li>
+            </ul>
+
+            <p>For the milk mixture</p>
+            <ul>
+              <li>1 can (14 ounces) condensed milk</li>
+              <li>1 can (12 ounces) evaporated milk</li>
+              <li>1/2 cup (120ml) whole milk</li>
+              <li>1/4 teaspoon ground cinnamon</li>
+              <li>1/2 teaspoon ground cardamom</li>
+            </ul>
+
+            <p>For the toppings</p>
+            <ul>
+              <li>1 1/2 cup heavy cream, chilled</li>
+              <li>3 tablespoon powdered sugar</li>
+              <li>1/2 cup unsalted shelled roasted pistachios</li>
+            </ul>
+
+            <br>
+
+            <p><strong>Procedure</strong></p>
+            <ol>
+              <li>Separate the egg whites and egg yolks in clean separate bowls. To prevent a yolk from accidentally breaking into the whites, separate the whites into a separate small bowl each time and then transfer it to the one you will beat them in. Make sure the bowl you add the egg whites in is very clean and has no grease marks.</li>
+              <li>Add 7 tablespoon of the sugar into a bowl and the zest and rub it together for a few minutes. Add into the yolks and whisk well until pale and light. Whisk in the milk. Then add in the flour, ground pistachios, salt and baking powder. Fold that gently until all mixed together</li>
+              <li>Now beat the egg whites in the separate bowl, until soft peaks form. Gradually add in 3.5 tablespoon sugar while beating and continue until you get stiff peaks</li>
+              <li>Add that into the flour mixture and fold gently with a spatula by scraping from the sides of the bowl, inwards. Don’t mix too much so you don’t deflate them.</li>
+              <li>In a 8x8 pan, with ONLY the bottom lined with parchment paper, pour the batter and bake at 350F for about 40-45 minutes. Don’t open the oven door until the last 10 minutes. Gently poke the cake with your finger and if it springs back, it’s done. If it leaves an indent, then bake for another 5 ish minutes</li>
+            </ol>
+
+          </details>
+        </div>
+      </div>
+        </div>
+      </div>
+
+      
+
+  <footer>
+    <p>© 2026 Sweet Filipino Desserts </p>
+    <p>contact us at 0992-861-4833 or e-mail us at filipinoclassic@gmail.com</p>
+  </footer>
+
+</body>
